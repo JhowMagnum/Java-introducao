@@ -23,19 +23,19 @@ public class ComandosDeEntrada {
 		System.out.printf("A palavra é: "+vString+space);
 		
 		/*Imprime valores Inteiro com a mudança do nextInt()*/
-		//System.out.printf("Informe um número inteiro: ");
-		//vInteiro = entrada.nextInt();
-		//System.out.printf("O número inteiro é: "+vInteiro+space);
+		System.out.printf("Informe um número inteiro: ");
+		vInteiro = entrada.nextInt();
+		System.out.printf("O número inteiro é: "+vInteiro+space);
 		
 		/*Imprime Valores Double com a mudança do nextDouble()*/
-		//System.out.printf("Informe um Double: ");
-		//vDouble = entrada.nextDouble();
-		//System.out.printf("O Double é: "+vDouble+space);
+		System.out.printf("Informe um Double: ");
+		vDouble = entrada.nextDouble();
+		System.out.printf("O Double é: "+vDouble+space);
 		
 		/*Imprime Valores Float com a mudança do nextFloat()*/
-		//System.out.printf("Informe número Real: ");
-		//vFloat = entrada.nextFloat();
-		//System.out.printf("O número real é: "+vFloat+space);
+		System.out.printf("Informe número Real: ");
+		vFloat = entrada.nextFloat();
+		System.out.printf("O número real é: "+vFloat+space);
 		
 		
 	}
